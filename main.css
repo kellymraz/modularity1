@@ -36,6 +36,7 @@
 .text-center { 
 	text-align: center;
 }
+/*//Bar Graph*/
 
 .bars-appearance {
 	background-color: lightblue;
@@ -43,19 +44,124 @@
 	
 }
 
-.bar-titles-appearance {
+.bar-titles-appearance th {
 	text-align: right;
 
+}.bar-titles-appearance div {
+	background-color: lightblue;
+	text-align: right;
 }
 
-
-
-
-
-.table-size td {
+/*.table-size td {
 	width:  100%;
 	padding: 1px;
 
+}*/
+
+/*//Lightbox*/
+
+/*.outer-box {
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	top:  0;
+	left: 0;
+ 	height: 100%;
+ 	padding: 250px;
+
+
 }
+
+.inner-box {
+	background-color: #ffffff;
+	height:  auto;
+	width:  auto;
+	padding: 10px;
+	position: relative;
+	overflow: auto;
+
+}
+
+.close-button {
+     background-color: pink;
+     height: 30px;
+     width: 50px;
+     padding: 10px;
+     border-radius: 15px;
+     color: white;
+     float: right;
+     font-style:  normal;
+     text-decoration: none;
+}		
+
+.inline-block {
+	display: inline-block;*/
+/*}*/
+/* Media Block */
+
+.img-media-box {
+	float: left;
+		
+	
+}
+
+.text-media-block {
+	overflow: hidden;
+	padding-left: 10px;
+	position:  relative;
+	
+}
+
+.header-media-block {
+	overflow: hidden;
+	padding-left: 13px;
+
+}
+
+/*nested media box*/
+
+.image-media-box-text {
+	overflow: hidden;
+	position: relative;
+}
+
+.img-media-box-indented {
+	float: left;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
